@@ -190,11 +190,8 @@ footer p {
   flex-direction: row;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1200px) {
   
-  /*.small, .smallTwo {
-    flex-wrap: wrap;
-  }*/
 
   .skills {
     display: flex;
@@ -208,17 +205,40 @@ footer p {
     flex-grow: 1;
   }
 
+
 }
 
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 800px) {
   
-  /*.small, .smallTwo {
-    flex-wrap: wrap;
-  }*/
 
   .skills {
     grid-template-columns: 1fr;
+  }
+
+  .main {
+    flex-direction: column;
+
+  }
+
+  .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .firstImg {
+    margin: 20px 0;
+  }
+
+  .imageTwo {
+    width: 100%;
+    align-items: center;
+  }
+
+  .small, .smallTwo {
+    width: 380px;
   }
 
 }
