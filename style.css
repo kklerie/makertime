@@ -212,10 +212,6 @@ footer p {
 @media all and (max-width: 800px) {
   
 
-  .skills {
-    grid-template-columns: 1fr;
-  }
-
   .main {
     flex-direction: column;
 
@@ -239,6 +235,10 @@ footer p {
 
   .small, .smallTwo {
     width: 380px;
+  }
+
+  ul {
+    font-size: 15px;
   }
 
 }
